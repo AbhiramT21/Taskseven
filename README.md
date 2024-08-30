@@ -1,4 +1,3 @@
-```markdown
 # Task Seven
 
 ## Overview
@@ -69,7 +68,7 @@ This repository contains the results of the security assessments performed on th
 1. **Grab the Banner:**
    - Open the terminal and run:
      ```bash
-     nc <Metasploitable_IP> <Port>
+     nc -nv <Metasploitable_IP> <Port>
      ```
      Replace `<Metasploitable_IP>` with the IP address and `<Port>` with the port number you want to check.
 
@@ -77,29 +76,8 @@ This repository contains the results of the security assessments performed on th
    - Capture a screenshot of the terminal displaying the banner.
    - Save the screenshot as `banner_screenshot.png`.
 
-## Upload to GitHub
-
-### Steps:
-1. **Prepare Files for Upload:**
-   - Ensure the following files are ready:
-     - `openvas_report.pdf`
-     - `nikto_report.html`
-     - `banner_screenshot.png`
-
-2. **Upload to GitHub:**
-   - Navigate to your GitHub repository and upload the files to the appropriate directory.
-
-3. **Commit and Push:**
-   - Commit your changes with a relevant commit message and push the changes to the repository.
-
 ## Repository Structure
 
 - `openvas_report.pdf` - OpenVAS scan report in PDF format.
 - `nikto_report.html` - Nikto scan report in HTML format.
 - `banner_screenshot.png` - Screenshot of the banner grabbed using netcat.
-
-## Notes
-- Ensure that all tools (OpenVAS, Nikto, netcat) are installed and properly configured on your system.
-- Follow additional instructions from the tools' documentation for any specific configurations or updates.
-
-```
